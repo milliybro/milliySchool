@@ -27,5 +27,4 @@ html, .login, #root  {
    margin-top: 5px;
    color: blue;
    display: flex;
-   justify-content: end;
 }
