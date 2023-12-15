@@ -1,0 +1,162 @@
+nav{
+   position: sticky !important;
+   z-index: 1;
+   margin: 0 auto;
+}
+header .nav-link {
+   padding-left: 0;
+   padding-right: 0;
+   font-size: 30px;
+   color: #fff;
+   font-weight: 700;
+   transition: 0.5;
+}
+
+a{
+   text-decoration: none !important;
+}
+.dropdown-content a{
+   color: black;
+}
+
+.dropdown-content a:hover{
+   color: #999;
+}
+.nav-link:hover {
+   color: #ffc700 !important;
+   transform: translateY(5px);
+}
+
+.active {
+   color: #ffc700 !important;
+
+}
+
+header ul {
+   gap: 30px;
+}
+
+
+/*  */
+.navbar {
+   overflow: hidden;
+   background-color: #333;
+   font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+   float: left;
+   font-size: 16px;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+   float: left;
+   overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+   font-size: 16px;
+   border: none;
+   outline: none;
+   color: white;
+   padding: 14px 16px;
+   background-color: inherit;
+   font-family: inherit;
+   /* Important for vertical align on mobile phones */
+   margin: 0;
+   /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+   background-color: red;
+}
+
+.dropdown-content {
+   display: flex !important;
+   justify-content: center !important;
+   gap: 10px !important;
+   display: block;
+   position: absolute;
+   background-color: #fff;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+   color: #ffc700;
+
+
+}
+.dropdown :only-child{
+   color: chocolate !important;
+}
+
+/* Links inside the dropdown */
+.dropdown-content {
+   float: none;
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+   background-color: #fff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover {
+   display: block !important;
+   overflow: visible;
+}
+
+.logo img{
+   width: 200px;
+}
+.header__account{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.header__account img{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.header{
+   justify-content: space-between;
+   align-items: center;
+}
+
+.account__info{
+   display: flex;
+   flex-direction: column;
+}
+.account__info h5, .account__info p{
+   padding: 0;
+   margin: 0;
+   color: #fff;
+}
+.nav{
+   padding: 10px 0;
+}
+
+.top__header{
+   position: sticky;
+   z-index: 1;
+}
+
+.dropdown-content a{
+   display: flex;
+   flex-wrap: nowrap !important;
+   flex-direction: row-reverse;
+}
